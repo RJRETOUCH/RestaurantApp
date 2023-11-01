@@ -1,0 +1,28 @@
+{
+  "Restaurants": [
+    {
+      "id": 1,
+      "name": "Baba Bhojnalay Restaurants",
+      "owner": "Rajneesh",
+      "mobile": "+91009995522",
+      "email": "baba@gmail.com",
+      "location": "Kanpur"
+    },
+    {
+      "id": 3,
+      "name": "Hungry Ghost Restaurants",
+      "owner": "Wash",
+      "mobile": "+91009995511",
+      "email": "hungry@gmail.com",
+      "location": "Gaziabhad"
+    },
+    {
+      "id": 4,
+      "name": "Chappan Bhog",
+      "owner": "Raj Narayan",
+      "mobile": "66541000",
+      "email": "chappanbhog@gmail.com",
+      "location": "PAC Road"
+    }
+  ]
+}

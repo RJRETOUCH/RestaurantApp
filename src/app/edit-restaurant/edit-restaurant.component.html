@@ -1,0 +1,51 @@
+<div class="container allRes">
+    <mat-card>
+        <mat-card-content>
+            <div>
+                <div>
+                    <h2 style="text-align: center;">Update Restaurant Old Details Here !</h2>
+                </div>
+                <div>
+                    <mat-form-field appearance="outline" class="form-elements">
+                        <mat-label>Restaurant Name</mat-label>
+                        <input matInput placeholder="Restaurant Name" [(ngModel)]="restaurantRecords.name">
+                    </mat-form-field>
+
+                </div>
+
+                <div>
+                    <mat-form-field appearance="outline" class="form-elements">
+                        <mat-label>Name of Owner</mat-label>
+                        <input matInput placeholder="Mr. John" [(ngModel)]="restaurantRecords.owner">
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <mat-form-field appearance="outline" class="form-elements">
+                        <mat-label>Mobile No.</mat-label>
+                        <input matInput placeholder="+91 44550066" [(ngModel)]="restaurantRecords.mobile">
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <mat-form-field appearance="outline" class="form-elements">
+                        <mat-label>Restaurant Email Id</mat-label>
+                        <input matInput placeholder="Restaurant Email Id" [(ngModel)]="restaurantRecords.email">
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <mat-form-field appearance="outline" class="form-elements">
+                        <mat-label>Restaurant Location</mat-label>
+                        <input matInput placeholder="Restaurant Location" [(ngModel)]="restaurantRecords.location">
+                    </mat-form-field>
+                </div>
+
+                <div>
+                    <button mat-raised-button color="primary" type="button" (click)="updateRecords()">Update
+                        Records</button>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
